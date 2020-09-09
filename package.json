@@ -1,0 +1,22 @@
+{
+  "name": "crypto-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Degree-Work/Crypto-Chain.git"
+  },
+  "author": "Krylov Sergey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Degree-Work/Crypto-Chain/issues"
+  },
+  "homepage": "https://github.com/Degree-Work/Crypto-Chain#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
