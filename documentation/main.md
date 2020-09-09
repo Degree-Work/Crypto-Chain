@@ -6,3 +6,8 @@
 ### Create block with TDD
 - *Создан класс block и тест для проверки*
 - *Изменен скрипт test в package.js*
+
+### Genesis block
+- *Написаны тесты*
+- *Реализован статический метод genesisBlock()*
+
