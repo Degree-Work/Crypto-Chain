@@ -24,9 +24,9 @@ class Blockchain {
             return false;
         }
 
-        for (let i=1; i < chain.length; i++) {
+        for (let i = 1; i < chain.length; i++) {
             const block = chain[i];
-            const actualLastHash = chain[i-1].hash;
+            const actualLastHash = chain[i - 1].hash;
             const {timestamp, lastHash, hash, data} = block;
 
             if (actualLastHash !== lastHash) {
@@ -39,6 +39,21 @@ class Blockchain {
             }
         }
         return true;
+    }
+
+    replaceChain(chain) {
+        if (chain.length <= this.getLength()) {
+            console.error('The incoming chain must be longer');
+            return;
+        }
+
+        if (!Blockchain.isValidChain(chain)) {
+            console.error('The incoming chain must be valid');
+            return;
+        }
+
+        console.log('replacing chain with', chain);
+        this.chain = chain;
     }
 }
 
