@@ -1,9 +1,11 @@
 ## Оглавление
+
 1. **Initial project**
 2. **Create block with TDD**
 3. **Genesis block**
 4. **Mine Block**
 5. **Crypto Hash**
+6. **Blockchain**
 
 ### 1. Initial project
 1. `npm init`
@@ -22,3 +24,7 @@
 
 ### 5. Crypto Hash
 - *Создана фукнция позволяющая получать hash*
+
+### 6. Blockchain
+- *Реализованы тесты на проверку добавления/genesis block*
+- *Реализован класс*
