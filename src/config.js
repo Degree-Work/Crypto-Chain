@@ -1,8 +1,9 @@
-const INITIAL_DIFFICULTY = 3;
+const INITIAL_DIFFICULTY = 3; // начальная сложность
 
+const MINE_RATE = 1000; // 1 second
 
 const GENESIS_DATA = {
-    timestamp: 1,
+    timestamp: Date.now(),
     lastHash: '-----',
     hash: 'hash-one',
     difficulty: INITIAL_DIFFICULTY,
@@ -11,4 +12,4 @@ const GENESIS_DATA = {
 };
 
 
-module.exports = {GENESIS_DATA};
+module.exports = {GENESIS_DATA, MINE_RATE};
