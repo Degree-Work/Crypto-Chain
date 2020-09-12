@@ -11,5 +11,6 @@ const GENESIS_DATA = {
     data: []
 };
 
+const PORT = 3100; // порт запуска приложения
 
-module.exports = {GENESIS_DATA, MINE_RATE};
+module.exports = {GENESIS_DATA, MINE_RATE, PORT};

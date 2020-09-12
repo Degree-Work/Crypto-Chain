@@ -1,6 +1,6 @@
-const {Blockchain} = require("../blockchain");
-const {Block} = require("../block");
-const {cryptoHash} = require("../cryptoHash");
+const {Blockchain} = require("./blockchain");
+const {Block} = require("./block");
+const {cryptoHash} = require("../util/cryptoHash");
 const hexToBinary = require('hex-to-binary');
 
 describe('Blockchain', () => {
