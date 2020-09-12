@@ -1,11 +1,20 @@
 ## Оглавление
 
+[О проекте](../README.md)
+
 1. **Initial project**
 2. **Create block with TDD**
 3. **Genesis block**
 4. **Mine Block**
 5. **Crypto Hash**
 6. **Blockchain**
+7. **Chain Validation**
+8. **Replace Chain**
+9. **Difficulty and the Nonce Value**
+10. **Dynamic Difficulty and the Mine Rate**
+11. **Average Work**
+12. **Binary hashes**
+13. **Prevent Difficulty Jumps**
 
 ### 1. Initial project
 1. `npm init`
